@@ -1,0 +1,191 @@
+body{ 
+    margin: 0;
+    background-color: rgb(250, 243, 235);
+    margin-top: 10px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+p{
+    font-family:  Roboto;
+    font-size: 15px;
+}
+
+.header-container{
+    display: flex ;
+    flex-direction: row;
+    font-family:  Roboto;
+    font-weight: bold;
+    height: 90px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left{
+    background-color: rgb(250, 243, 235);
+    width: 150px;
+    min-width: 250px;
+}
+
+.header-middle{
+    background-color: rgb(250, 243, 235);
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header-right{
+    background-color: rgb(250, 243, 235);
+    width: 350px;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.chef-logo{
+    height: 85px;
+    border-radius: 35px;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+
+.nav-link{
+    padding:20px;
+    margin-left: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover{
+    border-bottom-style: solid;
+    border-color: rgb(202, 135, 11);
+}
+
+.order-link{
+    background-color: rgb(202, 135, 11);
+    margin-right: 7px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 12.5px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.order-link:hover{
+    opacity: 0.5;
+}
+
+/* container */
+
+.container{
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.section{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        column-gap: 50px;
+}
+
+.top-section-content{
+    padding: 20px;
+    height: 100%;
+    margin-top: 350px;
+}
+
+p {
+    display: block;
+    width: 340px;
+}
+
+
+.top-section-image{
+    width: 100%;
+    min-width: 355px;
+}
+
+
+.order-button{
+    padding: 15px 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-width: 2px;
+    border-style: solid;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    background: transparent;
+    color: rgb(202, 135, 11);
+    margin-top: 5px;
+}
+
+.order-button:hover{
+    opacity: 0.5;
+    transition: 0.16s;
+}
+
+.scrolling-text-wrapper {
+    font-size: 5rem;
+    overflow: hidden;
+    margin: 40px 0;
+    letter-spacing: 5px;
+}
+
+.scrolling-text-wrapper .scrolling-text {
+    width: 200%;
+    white-space: nowrap;
+    animation-name: textScroll;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-family:  "Roboto", sans-serif;
+}
+
+div {
+    display: block;
+}
+
+@keyframes textScroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.mid-section-content{
+    padding: 20px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: Roboto;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 56px;
+    margin-bottom: 0;
+}
+
+.mid-section-details{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+
